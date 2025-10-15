@@ -37,3 +37,14 @@
   color: hsl(240, 78%, 98%);
   transition: all ease-in-out 1.5s;
 }
+span {
+  transition: all 1.5s ease-in-out;
+}
+/* .basic-price-monthly,
+.basic-price-annually {
+  transition: all 1.5s ease-in-out;
+} */
+.text-annimation {
+  transition: all 1.5s ease-in-out;
+  opacity: 0;
+}

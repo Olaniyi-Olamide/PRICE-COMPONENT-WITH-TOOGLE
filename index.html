@@ -27,7 +27,7 @@
           class="relative gradient-btn w-[3.4rem] h-[3.4rem] rounded-[1rem] pl-0.5 py-0.5"
         >
           <div
-            class="bg-Blue50 w-[1.5rem] h-[1.5rem] rounded-full toogle-btn"
+            class="bg-Blue50 w-[1.5rem] h-[1.5rem] rounded-full toogle-btn cursor-pointer"
           ></div>
         </div>
         <span class="mx-4.5 text-Gray650 opacity-[0.7] font-bold">Monthly</span>
@@ -41,7 +41,8 @@
       >
         <p class="mb-6 text-Gray650 font-bold">Basic</p>
         <p class="mb-6 text-[2.5rem] md:text-[3.5rem] text-Gray700 font-bold">
-          $199.99
+          <span class="basic-price-annually">$199.99</span>
+          <span class="hidden basic-price-monthly">$19.99</span>
         </p>
         <span class="w-[100%] h-[0.1rem] bg-Gray650 opacity-[0.2]"></span>
         <p class="text-Gray650 font-bold my-3.5">500 GB Storage</p>
@@ -60,7 +61,10 @@
         class="gradient shadow-2xl py-[1.5rem] px-[1rem] rounded-[0.7rem] flex flex-col items-center justify-center text-Blue50 md:min-w-[15rem] lg:min-w-[22rem] md:py-[3rem]"
       >
         <p class="mb-6 font-bold">Professional</p>
-        <p class="mb-6 text-[2.5rem] font-bold md:text-[3.5rem]">$249.99</p>
+        <p class="mb-6 text-[2.5rem] font-bold md:text-[3.5rem]">
+          <span class="professional-price-annually">$249.99</span>
+          <span class="hidden professional-price-monthly">$24.99</span>
+        </p>
         <span class="w-[100%] h-[0.1rem] bg-Blue50 opacity-[0.2]"></span>
         <p class="font-bold my-3.5">1 TB Storage</p>
         <span class="w-[100%] h-[0.1rem] bg-Blue50 opacity-[0.2]"></span>
@@ -79,7 +83,8 @@
       >
         <p class="mb-6 text-Gray650 font-bold">Master</p>
         <p class="mb-6 text-[2.5rem] text-Gray700 font-bold md:text-[3.5rem]">
-          $399.99
+          <span class="master-price-annually">$399.99</span>
+          <span class="hidden master-price-monthly">$39.99</span>
         </p>
         <span class="w-[100%] h-[0.1rem] bg-Gray650 opacity-[0.2]"></span>
         <p class="text-Gray650 font-bold my-3.5">2 TB Storage</p>
