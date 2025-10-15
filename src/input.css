@@ -1,1 +1,39 @@
 @import "tailwindcss";
+
+@theme {
+  --color-Blue50: hsl(240, 78%, 98%);
+  --color-Gray650: hsl(233, 13%, 49%);
+  --color-Gray700: hsl(232, 13%, 33%);
+  --color-Purple: hsl(238, 63%, 64%);
+}
+.gradient {
+  background: linear-gradient(180deg, hsl(237, 73%, 79%), hsl(238, 63%, 64%));
+  height: 100%;
+}
+.gradient-btn {
+  background: linear-gradient(90deg, hsl(237, 73%, 79%), hsl(238, 63%, 64%));
+  height: 100%;
+}
+.toogle {
+  transform: translateX(1.6rem);
+  transition: all ease-in 0.5s;
+}
+.toogle-btn {
+  transition: all ease-in 0.5s;
+}
+.purple-btn,
+.white-btn {
+  transition: all ease-in-out 1.5s;
+}
+.purple-btn:hover {
+  background: transparent;
+  border: hsl(238, 63%, 64%) solid 1px;
+  color: hsl(238, 63%, 64%);
+  transition: all ease-in-out 1.5s;
+}
+.white-btn:hover {
+  background: transparent;
+  border: hsl(240, 78%, 98%) solid 1px;
+  color: hsl(240, 78%, 98%);
+  transition: all ease-in-out 1.5s;
+}
